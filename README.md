@@ -23,6 +23,16 @@ This was originally implemented as a **timed technical assessment for a Senior W
   - No automated tests (manual verification only)
   - Not published to the WordPress.org plugin repo
 
+## 🖼 Screenshots
+
+<p align="center">
+  <img src="01-editor-preview.png" alt="CTC Comparison Table block in the WordPress editor" width="900" />
+</p>
+
+<p align="center">
+  <img src="04-rendered.png" alt="CTC Comparison Table rendered on the front end (desktop)" width="900" />
+</p>
+
 ## ✨ Features
 
 - **ACF V3 Block Integration**: Seamlessly integrates with WordPress Block Editor
@@ -75,6 +85,13 @@ The block includes the following fields:
 - **Component Sub Text**: Subtitle or description
 - **Data Information**: Additional informational text (displayed with info icon)
 - **Disclaimer**: Disclaimer text displayed at the bottom
+
+#### Block Editor Preview
+
+<p align="center">
+  <img src="02-editor-options-open.png" alt="CTC Comparison Table block with options panel open in the editor" width="450" />
+  <img src="03-editor-options-folded.png" alt="CTC Comparison Table block with options collapsed in the editor" width="450" />
+</p>
 
 #### Companies (Repeater Field)
 
@@ -176,6 +193,13 @@ Instead of using a horizontal scrollable table on mobile devices, this plugin im
 - **Accessibility**: Screen readers can navigate cards more naturally
 - **Visual Hierarchy**: Important information (company name, rating, CTA) is prominently displayed
 - **Modern UX**: Aligns with current mobile design patterns (similar to e-commerce product cards)
+
+#### Mobile Layout Examples
+
+<p align="center">
+  <img src="05-mobile-render.png" alt="CTC Comparison Table on mobile – main view" width="350" />
+  <img src="06-mobile-render-bottom.png" alt="CTC Comparison Table on mobile – bottom section with disclaimer/actions" width="350" />
+</p>
 
 #### Responsive Breakpoints
 
