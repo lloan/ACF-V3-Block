@@ -8,7 +8,7 @@ This was originally implemented as a **timed technical assessment for a Senior W
 ![PHP](https://img.shields.io/badge/PHP-7.4%2B-purple)
 ![Status](https://img.shields.io/badge/Type-Assessment%20%2F%20POC-informational)
 
-## 🧩 Context & Goals
+## Context & Goals
 
 - **Context**: Timed take‑home assessment for a company hiring a Senior WordPress Developer.
 - **Goal**: Demonstrate senior‑level thinking around:
@@ -23,17 +23,14 @@ This was originally implemented as a **timed technical assessment for a Senior W
   - No automated tests (manual verification only)
   - Not published to the WordPress.org plugin repo
 
-## 🖼 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="01-editor-preview.png" alt="CTC Comparison Table block in the WordPress editor" width="900" />
 </p>
 
-<p align="center">
-  <img src="04-rendered.png" alt="CTC Comparison Table rendered on the front end (desktop)" width="900" />
-</p>
 
-## ✨ Features
+## Features
 
 - **ACF V3 Block Integration**: Seamlessly integrates with WordPress Block Editor
 - **Responsive Design**: Card-based mobile layout (instead of scrollable tables) for better UX - see [Design Philosophy](#-responsive-design) below
@@ -43,13 +40,13 @@ This was originally implemented as a **timed technical assessment for a Senior W
 - **Customizable**: Easy to theme with CSS custom properties
 - **Performance**: Assets only load when the block is present on the page
 
-## 📋 Requirements
+## Requirements
 
 - WordPress 5.8 or higher
 - PHP 7.4 or higher
 - [Advanced Custom Fields Pro](https://www.advancedcustomfields.com/pro/) plugin (ACF V3 required)
 
-## 🚀 Running the Example Locally
+## Running the Example Locally
 
 This section is mainly for reviewers or anyone who wants to see the block in a real WordPress environment.
 
@@ -67,7 +64,7 @@ cd wp-content/plugins
 git clone https://github.com/yourusername/acf-comparison-table.git ctc-comparison-table
 ```
 
-## 📖 Usage
+## Usage
 
 ### Adding the Block
 
@@ -132,7 +129,7 @@ The block supports:
 - **Full width**: For full-width layouts
 - **Anchor links**: Add custom anchor IDs for deep linking
 
-## 🏗️ Architecture (What This Shows)
+## Architecture (What This Shows)
 
 ```
 ctc-comparison-table/
@@ -155,14 +152,14 @@ The responsive design is implemented entirely in CSS using:
 - **Media queries** at 991px and 520px breakpoints
 - **`display: contents`** to maintain semantic structure while allowing flexible layouts
 
-## 🔒 Security
+## Security
 
 - All user inputs are properly escaped using WordPress functions (`esc_html()`, `esc_attr()`, `esc_url()`)
 - Direct file access is prevented with `ABSPATH` checks
 - URLs are normalized and validated
 - Sanitization applied to all dynamic content
 
-## ♿ Accessibility
+## Accessibility
 
 - Semantic HTML5 elements (`<section>`, proper heading hierarchy)
 - ARIA attributes for table structure (`role="table"`, `role="row"`, `role="cell"`)
@@ -170,7 +167,7 @@ The responsive design is implemented entirely in CSS using:
 - Keyboard navigation support
 - Focus indicators for interactive elements
 
-## 📱 Responsive Design
+## Responsive Design
 
 ### Design Philosophy: Cards Over Scrollable Tables
 
@@ -220,11 +217,11 @@ Instead of using a horizontal scrollable table on mobile devices, this plugin im
   - Maximum touch target sizes maintained
  
 
-## 📝 License
+## License
 
 This project is licensed under the Apache License 2.0 – see the [LICENSE](LICENSE) file for details.
 
-## 🙏 How To Read This As A Portfolio Piece
+## How To Read This As A Portfolio Piece
 
 This repo is intended to show how I approach:
 
